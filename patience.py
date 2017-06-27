@@ -50,6 +50,8 @@ def q3():
 		s_0.append(valueIteration.valueIteration(5, 2, tau, rho, gamma)[0])
 		gamma+=0.01
 	plt.plot(gamma_values, s_0, 'r-')
+	plt.ylabel('value of s_0')
+	plt.xlabel('gamma')
 	plt.show()
 
 q3()

@@ -74,11 +74,12 @@ def q2():
 def plotHeapMap(iterations):
 	for i in range(1,iterations+1):
 		V = valueIteration.valueIteration(9, 4, tau, rho, 0.75, i)
-		print V
+		#print V
 		plt.imshow(V.reshape((3, 3)), cmap="hot")
 		plt.show()
 
 
-
+q1()
+q2()
 
 
